@@ -1,0 +1,17 @@
+
+
+.sglogo {
+    max-height: 30px;
+    max-width: 60px;
+    float: left;
+}
+#photos {
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.posters img {
+    flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
