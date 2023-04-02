@@ -1,17 +1,31 @@
 
-
-.sglogo {
-    max-height: 30px;
-    max-width: 60px;
-    float: left;
+@font-face {
+  font-family: 'citybold_italic';
+  src: url(/assets/fonts/City\ Bold\ Italic.ttf)   format('tff');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  background-color: black;
+  color: red;
+}
+header li {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  padding: 5px;
+  
 }
 #photos {
     display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  column-count: 2;
+  
 }
 .posters img {
     flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+  border-radius: 20px;
 }
