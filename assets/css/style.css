@@ -16,20 +16,50 @@ header li {
     display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  column-count: 2;
-  margin-top: 100px;
+  column-count: 3;
+  margin-right: 0;
   
-}
+ }
+
 .posters img {
     flex: 25%;
   max-width: 25%;
   padding: 0 4px;
-  border-radius: 20px;
+  border-radius: 5px;
+  background-color: black;
 }
+
+/* amazon button code found codepen.io*/
 .amazon {
   background: #cf9f2b;
   border: 1px solid #4966a1;
   color: #000057;
   padding: 3px 12px;
   border-radius: 8px;
+}
+
+
+/* footer (code from love running */
+footer {
+  height: 150px;
+ 
+}
+
+.social-networks {
+   text-align: center;
+}
+.social-networks > li {
+   display: inline;
+}
+
+.social-networks > li {
+   font-size: 160%;
+   margin: 1%;
+   padding: 5%;
+   color: #3a3a3a;
+}
+iframe {
+  padding-top: 5px;
+  text-align: center;
+  margin: auto;
 }

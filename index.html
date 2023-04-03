@@ -14,15 +14,12 @@
 <body>
     <header>
         <a href="index.html"><h1>Smoking Guns!</h1></a>
-        <div>   <a href="https://www.amazon.co.uk/gp/video/detail/B074SZ2FFZ" target="_blank" rel="noopener" aria-label="buy smoking guns on amazon">Buy on Amazon</a> </div>
            
         <nav>
             <ul>
-                <li>
-                    <a href="trailer.html"> Trailer</a>
-                </li>
-               
-                <li><a href="photos.html">Photos</a>
+                <li><span class="amazon">   <a href="https://www.amazon.co.uk/gp/video/detail/B074SZ2FFZ" target="_blank" rel="noopener" aria-label="buy smoking guns on amazon">Buy on Amazon</a> </span></li>
+               <li > <a href="#signup">Register</a></li>
+                <li><a href="photos.html">Media</a>
                 </li>
             </li>
         <li>
@@ -31,13 +28,26 @@
             </ul>
         </nav>
 
+
     </header>
-    <div>
-        <p>
-            hello this is a test
-        </p>
-    </div>
     
+    <section class="form-section" id="signup">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Register Your Interest! Stay Up To Date With Future Projects</h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" name="first_name" type="text" placeholder=" First Name" required>
+           
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" name="last_name" type="text" placeholder="Last Name" required>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" type="email" id="email" name="email_address" placeholder="Email Address" required>
+            
+            
+            
+            <input class="join-button" type="submit" value="Register">
+        </form>
+    </section>
 
     <footer>
         <ul class="social-networks">
