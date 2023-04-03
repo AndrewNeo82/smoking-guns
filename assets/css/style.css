@@ -1,7 +1,5 @@
 
-body {
-  background-color: white;
-}
+
 header {
   background-color: white;
 }
@@ -12,6 +10,8 @@ header li {
   padding: 5px;
   
 }
+
+
 
 .trailer {
   padding-bottom: 30px;
