@@ -1,11 +1,7 @@
 
-@font-face {
-  font-family: 'citybold_italic';
-  src: url(/assets/fonts/City\ Bold\ Italic.ttf)   format('tff');
-  font-weight: normal;
-  font-style: normal;
+body {
+  background-color: white;
 }
-
 header {
   background-color: white;
 }
@@ -21,6 +17,7 @@ header li {
   flex-wrap: wrap;
   padding: 0 4px;
   column-count: 2;
+  margin-top: 100px;
   
 }
 .posters img {
@@ -28,4 +25,11 @@ header li {
   max-width: 25%;
   padding: 0 4px;
   border-radius: 20px;
+}
+.amazon {
+  background: #cf9f2b;
+  border: 1px solid #4966a1;
+  color: #000057;
+  padding: 3px 12px;
+  border-radius: 8px;
 }
