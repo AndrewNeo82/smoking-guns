@@ -10,6 +10,14 @@ header li {
   padding: 5px;
   
 }
+.sglogo img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+ margin: 20px auto;
+}
 
 
 
@@ -73,5 +81,12 @@ footer {
   .posters {
     flex: 50%;
     max-width: 50%;
+  }
+  .trailer {
+    width: 100%;
+    height: auto;
+  }
+  .sglogo {
+   
   }
 }
