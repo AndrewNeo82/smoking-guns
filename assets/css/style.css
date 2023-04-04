@@ -20,22 +20,23 @@ header li {
   margin: auto;
 }
 #photos {
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
-  padding: 20px 4px;
-  column-count: 3;
-  margin-right: 0;
-  text-align: center;
-  margin-left: 20%;
+  padding: 0 4px;
   
  }
 
-.posters img {
-    flex: 25%;
+.posters  {
+  flex: 25%;
   max-width: 25%;
-  padding: 20px 4px;
-  border-radius: 5px;
-  background-color: black;
+  padding: 0 4px;
+
+}
+
+.posters img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 /* amazon button code found codepen.io*/
@@ -66,4 +67,11 @@ footer {
    margin: 1%;
    padding: 5%;
    color: #3a3a3a;
+}
+
+@media screen and (max-width: 950px) {
+  .posters {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
