@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'citybold_italic';
-  src: url('/assets/font/citybolditalic.ttf') format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 header {
   background-color: white;
@@ -114,13 +109,42 @@ footer {
     margin: auto;
    
   }
-
+.posters img {
+  width: 100%;
+  height: auto;
+}
 
   .trailer {
     width: 100%;
     height: auto;
   }
-
-
-
 }
+
+@media screen  and (max-width: 800px) {
+  #photos {
+    display: flex;
+    flex: wrap;
+    
+
+  }
+
+  .posters {
+    flex: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+   
+  }
+.posters img {
+  width: 100%;
+  height: auto;
+  
+}
+
+  .trailer {
+    width: 100%;
+    height: auto;
+  }
+  
+}
+
