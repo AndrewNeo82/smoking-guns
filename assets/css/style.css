@@ -1,5 +1,7 @@
 
-
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 header {
   background-color: white;
 }
@@ -37,6 +39,12 @@ header li {
   text-align: center;
   margin: auto;
 }
+.britflicks_vid {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+}
 
 #photos {
   display: flex;
@@ -63,13 +71,27 @@ header li {
   width: 100%;
 }
 
+/* review */
+
+#britflicks h2 {
+  text-align: center;
+
+}
+
+
 /* amazon button code found codepen.io*/
+#buy {
+  text-align: center;
+  margin-top: auto;
+  
+}
 .amazon {
   background: #cf9f2b;
   border: 1px solid #4966a1;
   color: #000057;
   padding: 3px 12px;
   border-radius: 8px;
+  
 }
 
 
@@ -118,9 +140,16 @@ footer {
     width: 100%;
     height: auto;
   }
+  .britflicks_vid{
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen  and (max-width: 800px) {
+
+  
+
   #photos {
     display: flex;
     flex: wrap;
