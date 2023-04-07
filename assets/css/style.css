@@ -6,9 +6,7 @@ header {
   background-color: white;
 }
 
-header h1 {
-  font-family: 'citybolditalic';
-}
+
 
 
 header li {
@@ -38,6 +36,11 @@ header li {
   padding-top: 30px;
   text-align: center;
   margin: auto;
+}
+
+#britflicks p{
+    margin: 20px;
+    padding: 5px ;
 }
 .britflicks_vid {
   padding-bottom: 30px;
@@ -160,13 +163,16 @@ footer {
   .posters {
     flex: 100%;
     max-width: 100%;
-    text-align: center;
-    margin: auto;
+    
+    
    
   }
 .posters img {
+    
   width: 100%;
   height: auto;
+  padding: 10px;
+  
   
 }
 
