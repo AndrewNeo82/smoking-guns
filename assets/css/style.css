@@ -6,6 +6,7 @@ body {
     color: darkblue;
     background-color: whitesmoke;
 }
+
 /* headings and logo */
 
 h1, h2 {
@@ -20,6 +21,7 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     float: left;
     margin-left: 20px;
+    color: rgb(242, 52, 52);
 }
 
 /* navigation links */
@@ -148,10 +150,11 @@ margin-bottom: 5%;  }
 .amazon {
    text-align: center;
   background: #cf9f2b;
-  border: 1px solid #4966a1;
-  color: #000057;
+  border: 3px solid #02020d;
+  color: #02020d;
   padding: 3px 12px;
   border-radius: 8px;
+  font-weight: 600;
   
 }
 
