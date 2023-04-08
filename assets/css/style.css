@@ -80,9 +80,23 @@ border-bottom: 1px solid  blue;
   margin: auto;
 }
 
+/* review */
+#britflicks h2, h3{
+     text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 #britflicks p{
     margin: 20px;
     padding: 5px ;
+    font-weight: 400;
+}
+#britflicks a {
+    text-decoration: none;
+}
+#britflicks a:hover {
+    color: blue;
 }
 .britflicks_vid {
   padding-bottom: 30px;
@@ -91,6 +105,7 @@ border-bottom: 1px solid  blue;
   margin: auto;
 }
 
+/* media */
 #photos {
   display: flex;
   flex-wrap: wrap;
@@ -120,12 +135,6 @@ border-bottom: 1px solid  blue;
  background-color: black;
 }
 
-/* review */
-
-#britflicks h2 {
-  text-align: center;
-
-}
 
 
 /* amazon button code found codepen.io*/
