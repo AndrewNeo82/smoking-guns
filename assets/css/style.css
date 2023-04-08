@@ -1,8 +1,7 @@
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 body {
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: darkblue;
 }
@@ -16,7 +15,13 @@ header {
   background-color: white;
 }
 
+#sg {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    margin-left: 20px;
+}
 
+/* navigation links */
 
 
 #menu li {
@@ -24,10 +29,12 @@ header {
   display: inline;
   float: right;
   padding: 5px;
+  margin-right: 20px;
+  margin-top: 30px;
 
 }
 
- #menu:hover {
+ #menu a:hover {
     color: blue;
 }
 
@@ -101,12 +108,11 @@ header {
 
 
 /* amazon button code found codepen.io*/
-#buy {
-  text-align: center;
-  margin-top: auto;
+
   
-}
+
 .amazon {
+   
   background: #cf9f2b;
   border: 1px solid #4966a1;
   color: #000057;
