@@ -51,12 +51,11 @@ header {
 }
 #laurels img {
     display: inline;
-    
     width: 150px;
     height: auto;
     padding-left: 50px;
 }
-
+/**
 .sglogo img {
   display: block;
   width: auto;
@@ -64,7 +63,7 @@ header {
   max-width: 100%;
   max-height: 90%;
   margin: 20px auto;
-}
+}**/
 .active {
 border-bottom: 1px solid  blue;
 }
@@ -188,6 +187,12 @@ footer {
     width: 100%;
     height: auto;
   }
+  #laurels img {
+    margin-left: 5%;
+    padding-top: 10%;
+    float: left;
+    max-width: 18%;
+  }
 }
 
 @media screen  and (max-width: 800px) {
@@ -216,209 +221,4 @@ background-color: white;
   
 }
 
-
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    color: darkblue;
-}
-/* headings and logo */
-
-h1, h2 {
-    text-transform: uppercase;
-    color: black;
-}
-header {
-  background-color: white;
-}
-
-#sg {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    float: left;
-    margin-left: 20px;
-}
-
-/* navigation links */
-
-
-#menu li {
-  list-style-type: none;
-  display: inline;
-  float: right;
-  padding: 5px;
-  margin-right: 20px;
-  margin-top: 30px;
-  
-}
- #menu a{
-    text-decoration: none;
- }
- #menu a:hover {
-    color: blue;
-}
-
-.sglogo img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 90%;
-  margin: 20px auto;
-}
-.active {
-border-bottom: 1px solid  blue;
-}
-
-.trailer h2 {
-  text-align: center;
- 
-}
-
-.trailer {
-  padding-bottom: 30px;
-  padding-top: 30px;
-  text-align: center;
-  margin: auto;
-}
-
-#britflicks p{
-    margin: 20px;
-    padding: 5px ;
-}
-.britflicks_vid {
-  padding-bottom: 30px;
-  padding-top: 30px;
-  text-align: center;
-  margin: auto;
-}
-
-#photos {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  background-color: black;
-
-}
-
-.posters h2 {
-  text-align: center;
-}
-
-.posters {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-  margin: auto;
-  background-color: black;
-
-}
-
-.posters img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-  border-radius: 5px;
- background-color: black;
-}
-
-/* review */
-
-#britflicks h2 {
-  text-align: center;
-
-}
-
-
-/* amazon button code found codepen.io*/
-
-  
-
-.amazon {
-   
-  background: #cf9f2b;
-  border: 1px solid #4966a1;
-  color: #000057;
-  padding: 3px 12px;
-  border-radius: 8px;
-  
-}
-
-
-/* footer (code from love running */
-footer {
-  max-height: 150px;
-
-}
-
-.social-networks {
-  text-align: center;
-}
-
-.social-networks>li {
-  display: inline;
-}
-
-.social-networks>li {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: #3a3a3a;
-}
-
-@media screen and (max-width: 950px) {
-  #photos {
-    display: flex;
-    flex: wrap;
-    
-
-  }
-
-  .posters {
-    flex: 100%;
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-   
-  }
-.posters img {
-  width: 100%;
-  height: auto;
-}
-
-  .trailer {
-    width: 100%;
-    height: auto;
-  }
-  .britflicks_vid{
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media screen  and (max-width: 800px) {
-
-    #photos {
-    background-color: white;
-width: 100%;   
-margin: auto;    }
-      .posters {
-        width: 100%;
-        background: white;
-      }
-.posters img {
-  width: 100%;
-  height: auto;
-  padding: 10px;
-background-color: white;
-  
-  
-}
-
-  .trailer {
-    width: 100%;
-    height: auto;
-  }
-  
-}
 
