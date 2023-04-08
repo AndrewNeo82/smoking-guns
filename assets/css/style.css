@@ -2,6 +2,16 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    font-weight: 400;
+    color: darkblue;
+}
+/* headings and logo */
+
+h1, h2 {
+    text-transform: uppercase;
+    color: black;
+}
 header {
   background-color: white;
 }
@@ -9,12 +19,16 @@ header {
 
 
 
-header li {
+#menu li {
   list-style-type: none;
   display: inline;
   float: right;
   padding: 5px;
 
+}
+
+ #menu:hover {
+    color: blue;
 }
 
 .sglogo img {
@@ -53,6 +67,7 @@ header li {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  background-color: black;
 
 }
 
@@ -65,6 +80,7 @@ header li {
   max-width: 25%;
   padding: 0 4px;
   margin: auto;
+  background-color: black;
 
 }
 
@@ -72,6 +88,8 @@ header li {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  border-radius: 5px;
+ background-color: black;
 }
 
 /* review */
@@ -128,8 +146,8 @@ footer {
   }
 
   .posters {
-    flex: 50%;
-    max-width: 50%;
+    flex: 100%;
+    max-width: 100%;
     text-align: center;
     margin: auto;
    
@@ -151,22 +169,20 @@ footer {
 
 @media screen  and (max-width: 800px) {
 
-  
-
-  #photos {
-    display: flex;
-    flex: wrap;
+    #photos {
+        display: flex;
+        flex: wrap;
+        
     
-
-  }
-
-  .posters {
-    flex: 100%;
-    max-width: 100%;
+      }
     
-    
-   
-  }
+      .posters {
+        flex: 100%;
+        max-width: 100%;
+        text-align: center;
+        margin: auto;
+       
+      }
 .posters img {
     
   width: 100%;
