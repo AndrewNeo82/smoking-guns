@@ -8,13 +8,20 @@ body {
 }
 
 /* headings and logo */
+.sg h4 {
+    clear: left;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0%;
+    background-color: whitesmoke;
 
+}
 h1, h2 {
     text-transform: uppercase;
     color: black;
 }
 header {
-  background-color: white;
+  background-color: whitesmoke;
 }
 
 #sg {
@@ -22,6 +29,7 @@ header {
     float: left;
     margin-left: 20px;
     color: rgb(242, 52, 52);
+    background-color: whitesmoke;
 }
 
 /* navigation links */
@@ -29,11 +37,11 @@ header {
 
 #menu li {
   list-style-type: none;
-  display: inline;
+  text-align: right;
   float: right;
-  padding: 5px;
-  margin-right: 20px;
-  margin-top: 30px;
+  padding: 2px;
+  margin-right: 5px;
+  margin-top: 0px;
   
 }
  #menu a{
@@ -216,8 +224,8 @@ footer {
         list-style-type: none;
        float: right;
         padding: 2px;
-        margin-left: 5px;
-        margin-top: 30px;
+        margin-left: 0;
+        margin-top: 5px;
         
       }
        #menu a{
@@ -232,11 +240,14 @@ footer {
 @media screen  and (max-width: 800px) {
 
     #menu li {
+     
+ clear: left;
+ text-align: left;
         list-style-type: none;
       float: right;  
-      padding: 1px;
+      padding: 3px;
         margin: 0;
-        margin-top: 10px;
+        margin-top: 0;
         
       }
        #menu a{
@@ -246,7 +257,7 @@ footer {
           color: blue;
        }
        #laurels img {
-        margin-left: 2%;
+        margin-left: 0;
         padding-top: 50%;
         text-align: center;
         max-width: 18%;
