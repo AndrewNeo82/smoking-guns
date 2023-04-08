@@ -68,17 +68,7 @@ header {
 border-bottom: 1px solid  blue;
 }
 
-.trailer h2 {
-  text-align: center;
- 
-}
 
-.trailer {
-  padding-bottom: 30px;
-  padding-top: 30px;
-  text-align: center;
-  margin: auto;
-}
 
 /* review */
 #britflicks h2, h3{
@@ -106,6 +96,18 @@ border-bottom: 1px solid  blue;
 }
 
 /* media */
+
+.trailer h2 {
+    text-align: center;
+   
+  }
+  
+  .trailer {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    margin: auto;
+  }
 #photos {
   display: flex;
   flex-wrap: wrap;
@@ -139,10 +141,13 @@ border-bottom: 1px solid  blue;
 
 /* amazon button code found codepen.io*/
 
-  
+  span {
+    display: table;
+    margin:  auto;
+margin-bottom: 5%;  }
 
 .amazon {
-   
+   text-align: center;
   background: #cf9f2b;
   border: 1px solid #4966a1;
   color: #000057;
@@ -173,8 +178,11 @@ footer {
   color: #3a3a3a;
 }
 
+
 @media screen and (max-width: 950px) {
-  #photos {
+   
+          
+       #photos {
     display: flex;
     flex: wrap;
     }
@@ -198,14 +206,43 @@ footer {
   }
   #laurels img {
     margin-left: 5%;
-    padding-top: 10%;
+    padding-top: 50%;
     float: left;
     max-width: 18%;
   }
+   #menu li {
+        list-style-type: none;
+       float: right;
+        padding: 2px;
+        margin-left: 5px;
+        margin-top: 30px;
+        
+      }
+       #menu a{
+          text-decoration: none;
+       }
+       #menu a:hover {
+          color: blue;
+       }
+       
 }
 
 @media screen  and (max-width: 800px) {
 
+    #menu li {
+        list-style-type: none;
+      float: right;  
+      padding: 2px;
+        margin-left: 0;
+        margin-top: 10px;
+        
+      }
+       #menu a{
+          text-decoration: none;
+       }
+       #menu a:hover {
+          color: blue;
+       }
     #photos {
     background-color: white;
     width: 100%;   
