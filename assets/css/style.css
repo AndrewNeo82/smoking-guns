@@ -168,6 +168,12 @@ margin-bottom: 5%;  }
 
 
 /* footer (code from love running */
+footer h5 {
+    text-align: center;
+    color: black;
+    font-weight: 100;
+}
+
 footer {
   max-height: 150px;
 
