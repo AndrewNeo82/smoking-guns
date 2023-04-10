@@ -63,7 +63,7 @@ header {
 #laurels img {
     display: inline;
     width: 150px;
-    height: auto;
+    height: 76px;
     padding-left: 50px;
 }
 /**
@@ -164,9 +164,9 @@ margin-bottom: 5%;  }
 
 .amazon {
    text-align: center;
-  background: #cf9f2b;
-  border: 3px solid #02020d;
-  color: #02020d;
+  background: #f4ae0b;
+  border: 3px solid #00000c;
+  color: #00000c;
   padding: 3px 12px;
   border-radius: 8px;
   font-weight: 600;
@@ -175,7 +175,7 @@ margin-bottom: 5%;  }
 
 
 /* footer (code from love running */
-footer h4 {
+footer p {
     text-align: center;
     color: black;
     font-weight: 100;
@@ -231,11 +231,13 @@ footer {
     width: 512px;
     height: auto;
   }
+  #laurels {
+text-align: center;
+}
   #laurels img {
-    margin-left: 5%;
-    padding-top: 50%;
-    float: left;
-    max-width: 18%;
+padding-top: 50%;
+display: inline;   
+ max-width: 18%;
   }
    #menu li {
         list-style-type: none;
