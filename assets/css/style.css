@@ -8,7 +8,7 @@ body {
 }
 
 /* headings and logo */
-.sg h2 {
+.sg h2, h3 h4 {
     font-size: x-small;
     clear: left;
     text-align: left;
@@ -52,7 +52,6 @@ header {
     color: blue;
 }
 #laurels {
-    padding-top: 10px;
     background-image: url(../images/SMOKING_GUNS_TT.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -78,8 +77,6 @@ header {
 .active {
 border-bottom: 1px solid  blue;
 }
-
-
 
 /* review */
 #britflicks h2, h3{
@@ -236,7 +233,7 @@ text-align: center;
 }
   #laurels img {
 padding-top: 50%;
-display: inline;   
+float: left;
  max-width: 18%;
   }
    #menu li {
