@@ -8,7 +8,8 @@ body {
 }
 
 /* headings and logo */
-.sg h4 {
+.sg h2 {
+    font-size: x-small;
     clear: left;
     text-align: left;
     margin-left: 20px;
@@ -275,7 +276,7 @@ footer {
         margin-left: 0;
         padding-top: 50%;
         text-align: center;
-        max-width: 18%;
+        max-width: 15%;
       }
     #photos {
     width: 100%;   
