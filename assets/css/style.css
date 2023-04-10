@@ -98,9 +98,11 @@ border-bottom: 1px solid  blue;
 #britflicks a:hover {
     color: blue;
 }
-.britflicks_vid {
+.britflicks_vid  {
   padding-bottom: 30px;
   padding-top: 30px;
+  text-align: center;
+  
  
 }
 
@@ -117,7 +119,7 @@ border-bottom: 1px solid  blue;
      height: 315px;
   }
   .trailer { 
-    
+    margin: auto;
     padding-bottom: 30px;
     padding-top: 30px;
     text-align: center;
@@ -138,6 +140,7 @@ background-color: whitesmoke;
   max-width: 25%;
   padding: 0 4px;
   background-color: whitesmoke;
+  margin: auto;
 
 }
 
@@ -219,8 +222,12 @@ footer {
     width: 100%;
     height: auto;
   }
+  .britflicks_vid {
+    margin: auto;
+
+  }
   .britflicks_vid iframe {
-    width: 100%;
+    width: 512px;
     height: auto;
   }
   #laurels img {
@@ -278,24 +285,26 @@ footer {
         width: 100%;
       }
 .posters img {
-  width: 100%;
+  width: 350px;
   height: auto;
   padding: 10px;  
   
 }
 
-  .trailer {
-    width: 400px;
-    height: auto;
-  }
+  
 
   .trailer iframe {
-    width: 400px;
+    width: 350px;
     height: auto;
+    text-align: center;
   }
 
   .britflicks_vid {
-    width: 400px;
+    
+    text-align: center;
+  }
+  .britflicks_vid iframe {
+    width: 350px;
     height: auto;
   }
   
