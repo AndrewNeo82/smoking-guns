@@ -109,6 +109,8 @@ border-bottom: 1px solid  blue;
 
 .trailer h2 {
     text-align: center;
+    margin-left: 20%;
+    padding-top: 10px;
    
   }
   
@@ -116,8 +118,8 @@ border-bottom: 1px solid  blue;
     padding-bottom: 30px;
     padding-top: 30px;
     text-align: center;
-    margin: auto;
-  }
+    margin-left: 13%;
+}
 #photos {
   display: flex;
   flex-wrap: wrap;
@@ -248,7 +250,6 @@ footer {
     #menu li {
      
  clear: left;
- text-align: left;
         list-style-type: none;
       float: right;  
       padding: 3px;
@@ -269,25 +270,21 @@ footer {
         max-width: 18%;
       }
     #photos {
-    background-color: white;
     width: 100%;   
     margin: auto;    }
      
     .posters {
         width: 100%;
-        background: white;
       }
 .posters img {
   width: 100%;
   height: auto;
-  padding: 10px;
-background-color: white;
-  
+  padding: 10px;  
   
 }
 
   .trailer {
-    width: 100%;
+    width: 412px;
     height: auto;
   }
   
