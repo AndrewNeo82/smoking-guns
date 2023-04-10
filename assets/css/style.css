@@ -284,7 +284,12 @@ footer {
 }
 
   .trailer {
-    width: 412px;
+    width: 400px;
+    height: auto;
+  }
+
+  .britflicks_vid {
+    width: 400px;
     height: auto;
   }
   
