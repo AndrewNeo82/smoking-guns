@@ -154,12 +154,18 @@ background-color: whitesmoke;
 
 /* amazon button code found codepen.io*/
 
-  span {
-    display: table;
-    margin:  auto;
-margin-bottom: 5%;  }
+  #buy {
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: medium;
 
-.amazon {
+}
+#buy a {
+    padding: 20px;
+    margin-bottom: 100px;
+
+}
+/*.amazon {
    text-align: center;
   background: #f4ae0b;
   border: 3px solid #00000c;
@@ -169,7 +175,7 @@ margin-bottom: 5%;  }
   font-weight: 600;
   
 }
-
+*/
 
 /* footer (code from love running */
 footer p {
@@ -232,8 +238,9 @@ footer {
 text-align: center;
 }
   #laurels img {
+    text-align: center;
 padding-top: 50%;
-float: left;
+
  max-width: 18%;
   }
    #menu li {
