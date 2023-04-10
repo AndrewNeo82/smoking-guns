@@ -55,8 +55,16 @@ I solved this by removibf a forward slash (/) from the front of the image file p
 
 ###HTML###
 
+I ran the code through the W3C checker and found the following error Error: Stray end tag i.From line 66, column 210; to line 66, column 213 526;"></i></i></a>↩ 
+
+i deleted this tag
+
 
 ###CSS###
+
+I ran the code through the W3C CSS Validator and found the following error 213	#photos	wrap is not a flex value : wrap
+
+I have not altered the code as the element behaves as intended and according to https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap "wrap" is a valid flex-wrap value
 
 ###Accessability###
 
