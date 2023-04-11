@@ -84,7 +84,8 @@ The live link can be found here https://andrewneo82.github.io/smoking-guns/
 
 ### Content
 
-The code for the footer was taken from the CI Love Running walkthrough project.
+* The code for the footer was taken from the CI Love Running walkthrough project.
+* For the videos I used youtubes embed html code as when i tried to upload the videos the files were too big, i added controls to this and made the iframe size responsive with CSS.
 
 ## Media
 
