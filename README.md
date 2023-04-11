@@ -83,8 +83,6 @@ The live link can be found here
 
 the code for the footer was taken from the CI Love Running walkthrough project.
 
-There is a now quoted out amazon buy link that i was planning to use whioch was taken from codepen.io which i may reactivate in the future.
-
 ## Media
 
 The review and associated interviews are courtesy of britflicks.com 
