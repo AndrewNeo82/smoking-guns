@@ -9,11 +9,13 @@ I created a website for a movie which I produced in 2016, the site contains a fe
 
 ### Navigation.
 
-The film name is in the top left hand corner in a font commonly used for film promotional material and also acts as a link back to the home page, beneath which is information on where to buy and watch the film. There are links to other sections of the webiste such as the media page and the review page aswell as the home page on the right hand side.
+* The film name is in the top left hand corner in a font commonly used for film promotional material and also acts as a link back to the home page, beneath which is information on where to buy and watch the film. 
+* There are links to other sections of the webiste such as the media page and the review page aswell as the home page on the right hand side.
 
 ### Front Page
 
-The main body of the front page contains some of the film festival laurels along with one of the awards that the film won aswell as the films logo set as the background and links to buy the film on amazon and youtube films.
+* The main body of the front page contains some of the film festival laurels along with one of the awards that the film won aswell  
+* The films logo set as the background and links to buy the film on amazon and youtube films.
 
 ![front](https://user-images.githubusercontent.com/90483176/230976497-e7a686c0-8b4f-4a4b-82b1-63cb0cafb11b.jpg)
 
@@ -37,11 +39,11 @@ The footer contains links to all the films social media (twitter, facebook) as w
 
 ## Testing
 
-I tested the site worked in different browswers.
+* I tested the site worked in different browswers.
 
-I confirmed the site is responsive and works on all device types.
+* I confirmed the site is responsive and works on all device types.
 
-I confirmed the links to outside sites are all correct and in working order.
+* I confirmed the links to outside sites are all correct and in working order.
 
 ## Bugs
 
