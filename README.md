@@ -1,6 +1,6 @@
 # Smoking Guns.
 
-I created a website for a movie which I produced ion 2016, the site contains a few of the festival nominations and an award which the film won images, video, a review of the movie and a link to buy the movie on Amazon and Youtube aswell as what television stations the film plays on.
+I created a website for a movie which I produced in 2016, the site contains a few of the festival nominations and an award which the film won images, video, a review of the movie and a link to buy the movie on Amazon and Youtube aswell as what television stations the film plays on.
 
 ![responsive](https://user-images.githubusercontent.com/90483176/230973517-6d6af72a-a1cc-4ad4-9e9e-18bb243d6d56.jpg)
 
@@ -9,7 +9,7 @@ I created a website for a movie which I produced ion 2016, the site contains a f
 
 ### Navigation.
 
-The film name is in the top left hand corner in a font commonly used for film promotional material and also acts as a link back to the home page, beneath which is information on where to buy and watch the film. There are links to other sections of the webiste such as the media page and the review page aswell as the hom page on the right hand side.
+The film name is in the top left hand corner in a font commonly used for film promotional material and also acts as a link back to the home page, beneath which is information on where to buy and watch the film. There are links to other sections of the webiste such as the media page and the review page aswell as the home page on the right hand side.
 
 ### Front Page
 
@@ -20,20 +20,20 @@ The main body of the front page contains some of the film festival laurels along
 
 ### Media Page
 
-the media Page contains the official trailer along with eight promotional posters which were used to advertise the film.
+The media Page contains the official trailer along with eight promotional posters which were used to advertise the film at festivals.
 
 ![trailer](https://user-images.githubusercontent.com/90483176/230976570-013a6c61-0476-450b-ad61-408a550ab919.jpg)
 
 ### Review page
 
-the review page contains one of the reviews of the film which was wrotten by mark bartlett for britflicks website along with a video of interviews with three of the cast members also for britflicks website.
+The review page contains one of the reviews of the film which was written by Mark Bartlett for Britflicks website along with a video of interviews with three of the cast members also for Britflicks website.
 
 ![review](https://user-images.githubusercontent.com/90483176/230976665-cc7dd213-f5ab-49f9-b1c1-3f0b5c8b356f.jpg)
 
 
 ### Footer
 
-the footer contains links to all the films social media (twitter, facebook) as well as the IMDB page.
+The footer contains links to all the films social media (twitter, facebook) as well as the IMDB page.
 
 ## Testing
 
@@ -47,9 +47,9 @@ I confirmed the links to outside sites are all correct and in working order.
 
 ### solved
 
-When i fist deployed the website to github pages the Festival laurels were just showing the alt text 
+When i first deployed the website to github pages the Festival laurels were just showing the alt text 
 
-I solved this by removibf a forward slash (/) from the front of the image file path.
+I solved this by removing a forward slash (/) from the front of the image file path, also by renaming the images.
 
 ## validator Testing
 
@@ -57,7 +57,7 @@ I solved this by removibf a forward slash (/) from the front of the image file p
 
 I ran the code through the W3C checker and found the following error Error: Stray end tag i.From line 66, column 210; to line 66, column 213 526;"></i></i></a>↩ 
 
-i deleted this tag
+I deleted this tag
 
 
 ### CSS
@@ -73,15 +73,16 @@ I have not altered the code as the element behaves as intended and according to 
 ## Deployment
 The site was deployed to github pages. The steps to depoloy were as follows.
 
+* In the Github repository navigate to the settings tab.
+* From the source section drop-down menu, select the Master Brancvh
 
-
-The live link can be found here 
+The live link can be found here https://andrewneo82.github.io/smoking-guns/
 
 ## Credits   
 
 ### Content
 
-the code for the footer was taken from the CI Love Running walkthrough project.
+The code for the footer was taken from the CI Love Running walkthrough project.
 
 ## Media
 
