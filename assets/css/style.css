@@ -145,7 +145,7 @@ h3 {
 
 .posters {
     flex: 25%;
-    max-width: 25%;
+    max-width: 50%;
     padding: 0 4px;
     background-color: whitesmoke;
     margin: auto;
@@ -156,7 +156,6 @@ h3 {
     vertical-align: middle;
     width: 100%;
     border-radius: 5px;
-    background-color: black;
 }
 
 /* streaming links */
@@ -227,7 +226,7 @@ footer {
     }
 
     #laurels img {
-        padding-top: 50%;
+        padding-top: 50px;
         margin-left: 0;
     }
 
@@ -246,7 +245,7 @@ footer {
 
     .posters {
         flex: 25%;
-        max-width: 50%;
+        max-width: 100%;
         text-align: center;
         margin: auto;
     }
@@ -295,6 +294,7 @@ footer {
         text-align: center;
         max-width: 15%;
     }
+
     #stream a {
         position: relative;
         bottom: 135px;
@@ -303,11 +303,9 @@ footer {
         text-decoration: none;
     }
 
-  
-
     .posters {
-        flex: 100%;
-        max-width: 100%;
+        flex: 25%;
+        max-width: 50%;
     }
 
     .posters img {
@@ -318,7 +316,7 @@ footer {
     }
 
     .trailer iframe {
-        width: 350px;
+        width: 512;
         height: auto;
         text-align: center;
     }
@@ -333,10 +331,22 @@ footer {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .posters {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .trailer iframe {
+        width: 350px;
+        height: auto;
+        text-align: center;
+}
+}
 @media screen and (max-width: 350px) {
     #laurels img {
         display: none;
     }
+
     #stream a {
         position: relative;
         bottom: 400px;
