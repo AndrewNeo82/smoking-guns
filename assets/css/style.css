@@ -168,7 +168,7 @@ h3 {
 
 #stream a {
     position: relative;
-    bottom: 50px;
+    bottom: 70px;
     margin: auto;
     font-size: 300%;
     padding: 20px;
@@ -235,7 +235,7 @@ footer {
 
     #stream a {
         position: relative;
-        bottom: 100px;
+        bottom: 250px;
         font-size: 200%;
         padding: 20px;
         text-decoration: none;
@@ -296,6 +296,13 @@ footer {
         padding-top: 50%;
         text-align: center;
         max-width: 15%;
+    }
+    #stream a {
+        position: relative;
+        bottom: 135px;
+        font-size: 200%;
+        padding: 20px;
+        text-decoration: none;
     }
 
     #photos {
