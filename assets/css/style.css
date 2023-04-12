@@ -42,7 +42,6 @@ header {
 
 #menu li {
     list-style-type: none;
-    text-align: right;
     float: right;
     padding: 2px;
     margin-right: 5px;
@@ -70,13 +69,13 @@ header {
     overflow: hidden;
     width: 100%;
     height: 600px;
+    margin-left: 20px;
 }
 
 #laurels img {
     display: inline;
     width: 150px;
     height: 76px;
-    padding-left: 50px;
 }
 
 /* review */
@@ -228,9 +227,8 @@ footer {
     }
 
     #laurels img {
-        text-align: center;
         padding-top: 50%;
-        max-width: 18%;
+        margin-left: 0;
     }
 
     #stream a {
