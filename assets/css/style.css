@@ -311,3 +311,11 @@ footer {
         height: auto;
     }
 }
+@media screen and (max-width: 400px) {
+        #laurels img {
+        margin-left: 0;
+        padding-top: 50%;
+        text-align: left;
+        max-width: 15%;
+    }
+}
