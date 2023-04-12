@@ -63,9 +63,16 @@ I solved this by deleting this tag.
 
 ### CSS
 
-I ran the code through the W3C CSS Validator and found the following error 213	#photos	wrap is not a flex value : wrap
+* I ran the code through the W3C CSS Validator and found the following error 213	#photos	wrap is not a flex value : wrap
 
 I solved this by changing  flex: wrap ; to flex-wrap: wrap;
+
+* 320	.trailer iframe	Value Error : width only 0 can be a unit. You must put a unit after your number : 512
+
+I solved this by adding the unit "px" 
+
+
+
 
 ### Accessability
 
