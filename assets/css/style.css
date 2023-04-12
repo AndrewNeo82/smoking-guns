@@ -75,7 +75,8 @@ header {
 #laurels img {
     display: inline;
     width: 150px;
-    height: 76px;
+    height: auto;
+    padding-right: 15px;
 }
 
 /* review */
