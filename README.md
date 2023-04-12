@@ -28,7 +28,7 @@ The media Page contains the official trailer along with eight promotional poster
 
 ### Review page
 
-The review page contains one of the reviews of the film which was written by Mark Bartlett for Britflicks website along with a video of interviews with three of the cast members also for Britflicks website.
+The review page contains one of the reviews of the film which was written by Mark Bartlett for Britflicks website along with a video of interviews with three of the cast members also for Britflicks website.=, the heading here links to the review on the britflicks website.
 
 ![review](https://user-images.githubusercontent.com/90483176/230976665-cc7dd213-f5ab-49f9-b1c1-3f0b5c8b356f.jpg)
 
@@ -51,7 +51,7 @@ The footer contains links to all the films social media (Twitter, Facebook) as w
 
 When i first deployed the website to github pages the Festival laurels were just showing the alt text. 
 
-I solved this by removing a forward slash (/) from the front of the image file path, also by renaming the images.
+I solved this by removing a forward slash (/) from the front of the image file path, also by renaming the images and removing spaces from the file names.
 
 ## validator Testing
 
