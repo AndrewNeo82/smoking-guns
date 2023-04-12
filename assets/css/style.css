@@ -156,7 +156,7 @@ h3 {
     vertical-align: middle;
     width: 100%;
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 /* streaming links */
@@ -241,12 +241,12 @@ footer {
 
     #photos {
         display: flex;
-        flex: wrap;
+        flex-wrap: wrap;
     }
 
     .posters {
-        flex: 100%;
-        max-width: 100%;
+        flex: 25%;
+        max-width: 50%;
         text-align: center;
         margin: auto;
     }
@@ -303,17 +303,15 @@ footer {
         text-decoration: none;
     }
 
-    #photos {
-        width: 100%;
-        margin: auto;
-    }
+  
 
     .posters {
-        width: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
 
     .posters img {
-        width: 350px;
+        width: 100%;
         height: auto;
         padding: 10px;
 
