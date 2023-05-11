@@ -225,6 +225,8 @@ footer {
 
     #laurels {
         text-align: center;
+        width: 100%;
+        height: auto;
     }
 
     #laurels img {
