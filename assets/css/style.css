@@ -67,9 +67,10 @@ header {
     background-image: url(../images/SMOKING_GUNS_TT.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     overflow: hidden;
     width: 100%;
-    height: 600px;
+    height: 400px;
 }
 
 #laurels img {
