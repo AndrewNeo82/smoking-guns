@@ -73,10 +73,11 @@ header {
     background-position: center;
     overflow: hidden;
     width: 100%;
-    height: 400px;
+    height: 450px;
 }
 
 #laurels img {
+    clear: both;
     display: inline;
     height: auto;
     margin-left: 20px;
@@ -235,7 +236,7 @@ footer {
     }
 
     #laurels img {
-        padding-top: 50%;
+        padding-top: 60%;
         margin-left: 0;
     }
 
