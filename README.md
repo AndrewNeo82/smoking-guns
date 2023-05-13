@@ -1,6 +1,6 @@
 # Smoking Guns.
 
-I created a website for a movie which I produced in 2016, the site contains a few of the festival nominations and an award which the film won, images, videos, a review of the movie and a link to buy the movie on Amazon and Youtube aswell as what television stations the film plays on.
+I created a website for a movie which I produced in 2016, the site contains a few of the festival nominations and an award which the film won, images, videos, a review of the movie and a link to buy the movie on Amazon and Youtube aswell as what television stations the film plays on. The aim of the site is to act as promotion for the film.
 
 ![responsive](https://user-images.githubusercontent.com/90483176/231429240-5adf36cc-c594-4e7f-b0bb-5366567dccb1.png)
 
@@ -15,7 +15,7 @@ I created a website for a movie which I produced in 2016, the site contains a fe
 ### Front Page
 
 * The main body of the front page contains some of the film festival laurels along with one of the awards that the film won.  
-* The films logo set as the background and links to buy the film on Amazon and Youtube films.
+* The films logo set as the background and links to buy the film.
 
 ![front](https://user-images.githubusercontent.com/90483176/230976497-e7a686c0-8b4f-4a4b-82b1-63cb0cafb11b.jpg)
 
@@ -39,19 +39,24 @@ The footer contains links to all the films social media (Twitter, Facebook) as w
 
 ## Testing
 
-* I tested the site worked in different browswers.
+* I tested the site worked in different browswers, eg Firefox, Edge and Chrome.
 
 * I confirmed the site is responsive and works on all device types, i found the font I chose for the logo reverts to the secondary choice on some browsers and devices.
 
 * I confirmed the links to outside sites are all correct and in working order.
+* I confirmed that the videos play as intended and the user has control over when the videos play and can open them in full screen.
 
 ## Bugs
 
 ### solved
 
-When i first deployed the website to github pages the Festival laurels were just showing the alt text. 
+* When i first deployed the website to github pages the Festival laurels were just showing the alt text. 
 
 I solved this by removing a forward slash (/) from the front of the image file path, also by renaming the images and removing spaces from the file names.
+
+* When i resized the images not all of the images were loading
+
+* I solved this by renaming the images so there were no spaces in the file names.
 
 ## validator Testing
 
@@ -71,6 +76,9 @@ I solved this by changing  flex: wrap ; to flex-wrap: wrap;
 
 I solved this by adding the unit "px" 
 
+http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fandrewneo82.github.io%2Fsmoking-guns%2F&usermedium=all&vextwarning=&warning=1
+
+
 
 
 
@@ -83,7 +91,7 @@ Running lighthouse confirmed that the colours and fonts were accesible and easy 
 ## Deployment
 The site was deployed to github pages. The steps to depoloy were as follows.
 
-* It was nescessary for me to create a second branch before it would allow me to deploy which i named "Master" as I was unable to deploy from "main"
+
 * In the Github repository navigate to the settings tab.
 * From the source section drop-down menu, select the Master Branch.
 
